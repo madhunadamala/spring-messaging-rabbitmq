@@ -29,11 +29,10 @@ public class Runner implements CommandLineRunner {
 		  System.out.println("Messages sent...");
 		 
 
-			try { Thread.sleep(10000); } catch (InterruptedException e) { // TODO
-			}
+		//Thread.sleep(1000000000);
 			 
 		  
-		/* receiver.getLatch().await(10000, TimeUnit.MILLISECONDS); */
+		//receiver.getLatch().await(70000, TimeUnit.MILLISECONDS); 
 	}
 
 }
